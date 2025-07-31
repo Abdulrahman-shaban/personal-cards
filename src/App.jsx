@@ -54,7 +54,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/add" element={<AddCard />} />
-          <Route path="/edit/:id" element={<EditCard />} />
+        <Route path="/edit/:index" element={<EditCard />} /> {/* ✅ This line */}
         </Routes>
       </div>
     </Router>
