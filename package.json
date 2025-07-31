@@ -1,6 +1,7 @@
 {
   "name": "card-manager-fixed",
   "version": "1.0.0",
+  "homepage": "https://abdulrahman-shaban.github.io/personal-cards",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
