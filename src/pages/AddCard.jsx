@@ -54,7 +54,7 @@ function AddCard() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-8 space-y-4">
+    <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-8 space-y-4  dark:text-black">
       <input
         type="text"
         placeholder="Card Number"
