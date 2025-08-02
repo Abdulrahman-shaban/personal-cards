@@ -54,7 +54,7 @@ function EditCard() {
   return (
     <div className="max-w-md mx-auto mt-10 p-4 bg-white dark:bg-gray-800 shadow-md rounded">
       <h2 className="text-xl font-bold mb-4 text-center">Edit Credit Card</h2>
-      <form onSubmit={handleSubmit} className="space-y-4">
+<form onSubmit={handleSubmit} className="space-y-4 text-black dark:text-black">
         <input
           type="text"
           placeholder="Card Number"
